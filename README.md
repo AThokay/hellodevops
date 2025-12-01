@@ -1,0 +1,2 @@
+# hellodevops
+DEVOPS beadandó projektfeladat
