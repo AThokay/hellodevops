@@ -1,0 +1,22 @@
+{
+  "name": "hello-devops",
+  "version": "1.0.0",
+  "description": "Egyszerű Hello DevOps HTTP szerver (Node.js + Express)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "echo \"Nincs külön build lépés, a projekt közvetlenül futtatható.\""
+  },
+  "keywords": [
+    "devops",
+    "hello-world",
+    "node",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
