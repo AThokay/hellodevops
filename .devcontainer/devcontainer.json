@@ -1,0 +1,17 @@
+{
+  "name": "Hello DevOps DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [8080],
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
