@@ -24,7 +24,6 @@ Opcionálisan:
 - Docker
 - Visual Studio Code + Dev Containers bővítmény
 
----
 
 ## 2. Alkalmazás futtatása
 
