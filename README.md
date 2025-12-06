@@ -31,7 +31,7 @@ Az alkalmazás Node.js + Express alapú.
 
 ### 2.1. Függőségek telepítése
 
-```bash
+bash
 npm install
 
 ### 2.2. Alkalmazás indítása
