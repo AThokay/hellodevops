@@ -1,7 +1,7 @@
 # Hello DevOps – Beadandó projekt
 
-Ez a projekt egy egyszerű Node.js + Express alapú webalkalmazás, amely a  
-`http://localhost:8080` címen **"Hello DevOps World!"** üzenetet ad vissza.
+Ez a projekt egy egyszerű Node.js + Express alapú webalkalmazás, amely a
+`http://localhost:8080` címen "Hello DevOps World!" üzenetet ad vissza.
 
 A projekt célja az alap DevOps lépések bemutatása:
 
@@ -9,7 +9,7 @@ A projekt célja az alap DevOps lépések bemutatása:
 - buildelés
 - verziókövetés (trunk-based development)
 - dockerizálás
-- DevContainer használata (kötelezően választott feladatrész)
+- DevContainer használata 
 
 ---
 
@@ -50,13 +50,7 @@ Hello DevOps World!
 
 ## 3. Buildelés
 
-A projekt Node.js alapú, így nincs klasszikus build (kompilálás),
-de a feladat követelménye szerint van build parancs:
-
-npm run build
-
-Ez a parancs csak tájékoztatást ad arról, hogy a projektnek nincs külön build folyamata,
-ugyanakkor a build lépés dokumentált és futtatható.
+A projekt Node.js alapú, így nincs klasszikus build
 
 ## 4. Docker használata
 
@@ -76,7 +70,7 @@ A konténer futása után az app elérhető:
 
 http://localhost:8080
 
-## 5. Dev Container használata (kötelezően választott feladat)
+## 5. Dev Container használata 
 
 A projekt tartalmaz egy .devcontainer mappát, amely lehetővé teszi,
 hogy a projektet teljesen konténerizált fejlesztői környezetben futtasd.
@@ -120,7 +114,7 @@ http://localhost:8080
 
 ## 6. Projektstruktúra
 
-hello-devops/
+hellodevops/
  ├─ .devcontainer/
  │   ├─ devcontainer.json
  │   └─ Dockerfile
@@ -128,7 +122,8 @@ hello-devops/
  │   └─ index.js
  ├─ package.json
  ├─ Dockerfile
- ├─ .gitignore
+ ├─ docker-compose.yml
+ ├─ LICENSE
  └─ README.md
 
 
